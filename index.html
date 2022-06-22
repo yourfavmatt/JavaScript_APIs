@@ -21,13 +21,21 @@
           fn+F12)
         </p>
         <div id="inputContainer">
-          <!-- Add label, input, and button HERE -->
-        </div>
-
-        <div id="imageContainer" style="max-width: 680px">
+          <form id="searchForm">
+          <label for="gifTerm">Search Term</label>
+          <input
+            type="search"
+            name="gifTerm"
+            id="giftTerm"
+            placeholder="Search"
+          />
+          <button type="submit">Go</button>
+          </form>
+          </div>
+        <div id="imageContainer" style="max-width: 680px"></div>
           <img
-            src="#"
-            alt="Giphy Selection"
+            src=""
+            alt=""
             style="width: 100%; height: auto"
           />
         </div>
